@@ -1,7 +1,7 @@
 # Quick_Recipies
 This application shows recipes of some dishes,have some functionalities like favorites screen,filter dishes etc.
 ![Screeen1](https://user-images.githubusercontent.com/86459712/144280665-bb6aa686-8752-47b4-95e5-e8477ae41f55.jpeg)
-<br />
+<br /><br />
 
 ![Screeen2](https://user-images.githubusercontent.com/86459712/144280713-8439c94b-b87a-4281-99d7-85a6bc011de7.jpeg)
 <br />
