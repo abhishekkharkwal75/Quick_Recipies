@@ -5,7 +5,7 @@ import 'package:quick_recipes/widgets/meal_item.dart';
 class FavouriteScreen extends StatelessWidget {
   final List<Meal> favoriteMeals;
 
-  const FavouriteScreen({Key key, this.favoriteMeals}) : super(key: key);
+  const FavouriteScreen({this.favoriteMeals});
   @override
   Widget build(BuildContext context) {
     if (favoriteMeals.isEmpty) {
@@ -22,7 +22,6 @@ class FavouriteScreen extends StatelessWidget {
             duration: favoriteMeals[index].duration,
             complexity: favoriteMeals[index].complexity,
             affordibility: favoriteMeals[index].affordability,
-            
           );
         },
         itemCount: favoriteMeals.length,
